@@ -8,7 +8,7 @@ body {
     font-family: 'Anek Malayalam', sans-serif;
 }
 /*styling of the navbar*/
-.navbar {
+/*.navbar {
     display: flex;
     align-items: center;
     padding: 20px;
@@ -31,23 +31,31 @@ nav ul li  {
 }
 nav ul li a{
     color: white;
+}*/
+
+.nav-link {
+    text-decoration: none;
+    color:#fff;
+    font-size: large;
+}
+.nav-link:hover {
+    color:#5c43e7;
+}
+button.btn-outline-success {
+    color:#5c43e7;
 }
 
-a {
-    text-decoration: none;
-    /*color: #555;*/
-}
 p {
     /* color: #555; */
     font-weight: 600;
 }
 
-.container {
+.hero {
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-}*/
+}
 
 /*.row {
     display: flex;
@@ -78,7 +86,7 @@ p {
   background: #563456;  
 }
 
-.header {
+#header {
     background-image: url("images/tech.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,7 +95,7 @@ p {
     background-color: rgba(0,0,0,0.6);
     color: #fff;
 }
-.header .row {
+#header .row {
     margin-top: 70px;
 }
 .categories {
